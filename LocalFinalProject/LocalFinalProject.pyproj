@@ -28,21 +28,8 @@
     <Compile Include="LocalFinalProject.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="CondaEnv|CondaEnv|conda" />
     <InterpreterReference Include="CondaEnv|CondaEnv|env" />
     <InterpreterReference Include="Global|PythonCore|3.7" />
-    <InterpreterReference Include="Global|PythonCore|3.7-32" />
-  </ItemGroup>
-  <ItemGroup>
-    <Interpreter Include="Python 3.7 (32-bit)\">
-      <Id>Python 3.7 (32-bit)</Id>
-      <Version>3.7</Version>
-      <Description>Python 3.7 (32-bit) (Python 3.7 (32-bit))</Description>
-      <InterpreterPath>Scripts\python.exe</InterpreterPath>
-      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
-      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
-      <Architecture>X86</Architecture>
-    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
